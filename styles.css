@@ -1,13 +1,13 @@
 
-/* Your CSS Code here. */
-.holder{
-	height:70px;
-	width:100%;
-	display:flex;
-	flex-direction:row;
-	justify-content:space-between;
-	
+.holder {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Add this line */
 }
+
 .item1{
 	height:65px;
 	width:90px;
